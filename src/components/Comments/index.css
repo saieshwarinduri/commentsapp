@@ -1,0 +1,101 @@
+.main_contianer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  align-self: flex-start;
+}
+.listContinar {
+  padding-left: 0px;
+}
+.CommentsInput {
+  padding: 5px;
+  margin-bottom: 12px;
+  outline: none;
+}
+.count {
+  color: white;
+  background-color: #0ea5e9;
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+}
+.commentscountname {
+  padding-left: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.countContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0px;
+}
+.imputName {
+  padding: 5px;
+  margin-bottom: 12px;
+  outline: none;
+}
+.paragraphOfsaysomething {
+  font-size: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.buttonadd {
+  background-color: #0284c7;
+  text-align: center;
+  width: 100px;
+  color: white;
+  font-size: 10px;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  order: 2;
+}
+
+.contentContainer {
+  width: 100%;
+  order: 2;
+}
+@media (min-width: 768px) {
+  .contentContainer {
+    order: 1;
+    width: 40%;
+  }
+}
+
+.smallcontainer {
+  max-width: 80%;
+}
+.imageSide {
+  height: 150px;
+  width: 230px;
+  order: 1;
+}
+@media (min-width: 768px) {
+  .imageSide {
+    order: 2;
+  }
+}
+.image_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .image_content_container {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,109 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.listItem {
+  list-style-type: none;
+}
+.commentContainer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.bules {
+  color: #0ea5e9;
+}
+.buttonON {
+  background-color: transparent;
+  border: none;
+}
+.IconProfile {
+  height: 25px;
+  width: 25px;
+
+  text-align: center;
+  align-self: center;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-right: 10px;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.usernaem {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.runtime {
+  font-size: 10px;
+  color: #94a3b8;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.like {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  border: none;
+  background-color: transparent;
+}
+.profilenamecommentcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.comment {
+  font-size: 11px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  color: #64748b;
+  width: 80%;
+}
+.commentlikedeleteContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.likecontainer {
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linebreak {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.likeImage {
+  height: 15px;
+  margin-right: 10px;
+}
+.deleteImage {
+  height: 15px;
+}
